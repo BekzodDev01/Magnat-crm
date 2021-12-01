@@ -1,0 +1,54 @@
+{
+  "name": "testing_task",
+  "version": "0.1.0",
+  "private": true,
+  "homepage": "https://zubayr-dev.github.io/Magnat-CRM/",
+  "scripts": {        
+    "build": "vue-cli-service build",
+    "serve": "vue-cli-service serve",
+    "lint": "vue-cli-service lint",
+    "deploy": "deploy.sh"
+  },
+  "dependencies": {
+    "apexcharts": "^3.28.1",
+    "core-js": "^3.6.5",
+    "vue": "^2.6.11",
+    "vue-apexcharts": "^1.6.2",
+    "vue-router": "^3.2.0",
+    "vue2-circle-progress": "^1.2.3",
+    "vuex": "^3.4.0"
+  },
+  "devDependencies": {
+    "@mathieustan/vue-datepicker": "^0.2.11",
+    "@vue/cli-plugin-babel": "~4.5.0",
+    "@vue/cli-plugin-eslint": "~4.5.0",
+    "@vue/cli-plugin-router": "~4.5.0",
+    "@vue/cli-plugin-vuex": "~4.5.0",
+    "@vue/cli-service": "~4.5.0",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^6.7.2",
+    "eslint-plugin-vue": "^6.2.2",
+    "sass": "~1.32.0",
+    "sass-loader": "^10.0.0",
+    "vue-template-compiler": "^2.6.11"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/essential",
+      "eslint:recommended"
+    ],
+    "parserOptions": {
+      "parser": "babel-eslint"
+    },
+    "rules": {}
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ]
+}

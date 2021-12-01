@@ -1,0 +1,255 @@
+.incomes {
+  color: #91A3B8;
+  .vd-picker__input-icon{
+    margin-left: 15px;
+  }
+  .vd-icon {
+    background: #F2F5FA;
+    border-radius: 8px;
+    padding: 7px;
+    -ms-flex-order: 2;
+    margin-right: 8px;
+
+  }
+  &__header {
+    width: inherit;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .heading {
+      display: flex;
+      align-items: center;
+
+      &__icon {
+        margin-right: 24px;
+        width: 64px;
+        height: 64px;
+        left: 168px;
+        background: #F2F5FA;
+        border-radius: 14px;
+        padding: 17px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+
+      &__text {
+        display: flex;
+        flex-direction: column;
+
+        .mainHeading {
+          font-weight: 600;
+          font-size: 30px;
+          line-height: 36px;
+          color: #181A1D;
+          margin-bottom: 6px;
+        }
+
+        .subHeading {
+          font-weight: normal;
+          font-size: 20px;
+          line-height: 23px;
+          color: #91A3B8;
+        }
+      }
+    }
+
+    .searchBlock {
+      display: flex;
+      align-items: center;
+
+      .notification {
+        margin-right: 24px;
+      }
+
+      &__search {
+        display: flex;
+        align-items: center;
+        position: relative;
+        border: 2px solid #EDF0F5;
+        padding: 12px;
+        width: 232px;
+        border-radius: 12px;
+
+        .icon {
+          position: absolute;
+          left: 20px;
+          top: 12px;
+        }
+
+        .input {
+          margin-left: 35px;
+          border: none;
+          font-size: 16px;
+          color: #91A3B8;
+          font-family: Gilroy;
+
+          &:focus {
+            outline: none;
+          }
+
+          &::-webkit-input-placeholder {
+            font-size: 16px;
+            color: #91A3B8;
+          }
+        }
+
+
+      }
+
+
+    }
+
+  }
+  .header {
+    padding: 16px 0;
+    border-bottom: 2px solid #EAECF3;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .title {
+      display: flex;
+      align-items: center;
+
+      .visited {
+
+        &::after {
+          content: '';
+          width: 100%;
+          border-bottom: 3px solid #507BE8;
+          position: absolute;
+          top: 45px;
+          left: 0;
+        }
+
+      }
+
+      &__name {
+        text-decoration: none;
+        text-transform: uppercase;
+        font-size: 14px;
+        font-weight: 600;
+        line-height: 17px;
+        color: #91A3B8;
+        position: relative;
+        display: flex;
+        cursor: pointer;
+
+
+        &:last-child {
+          margin-left: 54px;
+        }
+
+      }
+    }
+
+    .selectionBlock {
+      display: flex;
+      align-items: center;
+
+      .from {
+        margin: 0 12px;
+      }
+
+      .sort {
+        margin-left: 0 !important;
+
+        &__datePicker {
+          display: flex;
+          align-items: center;
+          width: 137px;
+          height: 44px;
+          border: 2px solid #EDF0F5;
+          border-radius: 14px;
+        }
+      }
+    }
+  }
+  &__tableOfInfo {
+    margin-top: 50px;
+
+
+
+
+    table {
+      .borderBottom{
+        border-bottom: 2px solid #EAECF3;
+      }
+      .odd {
+        background: #F4F7FC;
+        border-radius: 14px;
+        padding: 20px;
+        transform: translateX(-20px);
+      }
+
+      .even {
+        background: transparent;
+        border-radius: 14px;
+        padding: 20px;
+        transform: translateX(-20px);
+      }
+
+      .tableRow {
+        display: flex;
+        align-items: center;
+
+        .colorDark {
+          color: #181A1D;
+        }
+
+        .colorGreen {
+          color: #2DC27A;
+        }
+
+        .colorRed {
+          color: #F54E4E;
+        }
+
+        .name {
+          display: flex;
+          align-items: center;
+
+          .avatar {
+            margin-right: 18px;
+          }
+        }
+
+        .col-1 {
+          width: 305px;
+
+        }
+
+        .col-2 {
+          width: 167px;
+        }
+
+        .col-3 {
+          width: 172px;
+        }
+
+        .col-4 {
+          width: 176px;
+        }
+
+        .col-5 {
+          width: 242px;
+        }
+
+        .col-6 {
+          width: 228px;
+        }
+
+        .col-7 {
+          width: 210px;
+        }
+
+        .col-8 {
+          width: 95px;
+        }
+      }
+    }
+
+  }
+}
