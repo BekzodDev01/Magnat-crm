@@ -9,7 +9,7 @@ cd dist
 git init 
 git add -A
 git commit -m 'New deployment'
-git push -f  git@github.com:Zubayr-dev/vue-pages.git master:gh-pages
+git push -f  git@github.com:Zubayr-dev/Magnat-crm.git master:gh-pages
 
 cd -
 
