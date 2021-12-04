@@ -4,7 +4,7 @@
       <router-view/>
     </component>
   </div>
-</template>
+</template>   
 <script>
 import HomeLayout from "./layouts/HomeLayout";
 import MainLayout from "./layouts/MainLayout";
