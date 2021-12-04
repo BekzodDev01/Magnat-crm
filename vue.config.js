@@ -1,3 +1,3 @@
 module.exports = {
-    publicPath: 'Magnat-crm'
+    publicPath: '/Magnat-crm'
 }
