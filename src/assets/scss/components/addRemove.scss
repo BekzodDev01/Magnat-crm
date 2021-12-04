@@ -1,0 +1,41 @@
+.addRemove {
+  position: fixed;
+  width: 132px;
+  height: 66px;
+  left: 1738px;
+  top: 860px;
+  background: #FFFFFF;
+  box-shadow: 0px 0px 24px rgba(145, 163, 184, 0.12);
+  border-radius: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 13px;
+  z-index: 9999;
+
+  .separator {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 40px;
+    color: #EAECF3;
+  }
+
+  .increment, .decrement {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 6px;
+    height: 25px;
+    padding: 7px;
+  }
+
+  .increment {
+    background-color: rgba(#2DC27A, .4);
+  }
+
+  .decrement {
+    background-color: rgba(#F54E4E, .4);
+  }
+
+}
